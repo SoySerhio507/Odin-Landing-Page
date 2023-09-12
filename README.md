@@ -1,0 +1,1 @@
+In this project I used the default (Flow) and Flexbox layouts of CSS to decorate a landing page layout.
