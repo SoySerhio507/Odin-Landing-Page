@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,11 +11,30 @@ body {
 }
 
 .header {
-    flex: 1 0 100px;
+    flex: 1 0 32px;
     display: flex;
     background-color: #1F2137;
-    color: white;
-    padding: 8px;
+    padding: 0px 256px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.header p {
+    font-size: 24px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    gap: 32px;
+
+}
+
+.header ul li {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .introduction {
@@ -50,4 +70,10 @@ body {
 
 .footer p {
     font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
