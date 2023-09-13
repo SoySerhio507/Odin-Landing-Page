@@ -39,14 +39,64 @@ body {
 
 .introduction {
     flex: 1;
+    display: flex;
     background-color: #1F2137;
-    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0px;
+    gap: 32px;
+}
+
+.introduction .intro-content {
+    flex: 0 1 600px;
+    height: 400px;
+}
+
+.introduction .intro-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.introduction .intro-content p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.introduction .intro-content button {
+    flex: none;
+    background-color: #3882F6;
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F9FAF8;
+    transition: 0.2s;
+}
+
+.introduction .intro-content button:hover {
+    background-color: #F9FAF8;
+    color: #1F2137;
+}
+
+.introduction .intro-content button:active {
+    background-color: #48A14D;
+    color: #F9FAF8;
+}
+
+.introduction img {
+    flex: none;
+    width: 600px;
+    border-radius: 8px;
+    height: auto;
 }
 
 .information {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     background-color: white;
-
 }
 
 .quote-container {
