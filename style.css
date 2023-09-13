@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    flex: 1 0 100px;
+    display: flex;
+    background-color: #1F2137;
+    color: white;
+    padding: 8px;
+}
+
+.introduction {
+    flex: 1;
+    background-color: #1F2137;
+    color: white;
+}
+
+.information {
+    flex: 1;
+    background-color: white;
+
+}
+
+.quote-container {
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.sign-up-container {
+    flex: 1;
+    background-color: white;
+}
+
+.footer {
+    flex: 1 0 50px;
+    display: flex;
+    background-color: #1F2137;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 16px;
+}
